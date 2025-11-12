@@ -1,8 +1,11 @@
 # UI Helm Chart
 
+<!-- Helm chart for deploying the UI service component -->
 This Helm chart deploys the UI component of the application.
 
 ## Installation
+
+<!-- Installation instructions for the Helm chart -->
 
 To install the chart:
 
@@ -18,6 +21,7 @@ helm install ui oci://public.ecr.aws/aws-containers/retail-store-sample-ui-chart
 
 ## Configuration
 
+<!-- Configurable Helm chart parameters and their default values -->
 The following table lists the configurable parameters of the UI chart and their default values.
 
 | Parameter                                  | Description                                     | Default                                                                                              |
@@ -83,6 +87,7 @@ The following table lists the configurable parameters of the UI chart and their 
 
 ## Examples
 
+<!-- Example configurations for common use cases -->
 ### Enabling Ingress
 
 ```yaml

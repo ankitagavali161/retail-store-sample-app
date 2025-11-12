@@ -2,14 +2,17 @@
 
 <!-- myGitOps Test: Testing deploy-simple.yml workflow -->
 
+<!-- Service Overview: Technology stack information -->
 | Language | Persistence |
 | -------- | ----------- |
 | Java     | N/A         |
 
+<!-- Main service description -->
 This service provides the frontend for the retail store, serving the HTML UI and aggregating calls to the backend API components.
 
 ## Configuration
 
+<!-- Environment variables for service configuration -->
 The following environment variables are available for configuring the service:
 
 | Name                              | Description                                                                                            | Default                 |
@@ -34,6 +37,7 @@ The following environment variables are available for configuring the service:
 
 ## Endpoints
 
+<!-- Utility endpoints for debugging and testing purposes -->
 Several "utility" endpoints are provided with useful functionality for various scenarios:
 
 | Method | Name                           | Description                                                                 |

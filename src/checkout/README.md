@@ -2,14 +2,17 @@
 
 <!-- !!GitOps Test: Checkout!!! -->
 
+<!-- Service Overview: Technology stack information -->
 | Language | Persistence |
 | -------- | ----------- |
 | Node     | Redis       |
 
+<!-- Main service description -->
 This service provides an API for storing customer data during the checkout process. Data is stored in Redis.
 
 ## Configuration
 
+<!-- Environment variables for service configuration -->
 The following environment variables are available for configuring the service:
 
 | Name                                    | Description                                                              | Default     |
@@ -22,6 +25,7 @@ The following environment variables are available for configuring the service:
 
 ## Endpoints
 
+<!-- Chaos engineering endpoints for testing and fault injection -->
 Several "utility" endpoints are provided with useful functionality for various scenarios:
 
 | Method   | Name                     | Description                                                                        |

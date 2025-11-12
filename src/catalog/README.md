@@ -2,14 +2,17 @@
 
 <!--  my test Gitops trigger -->
 
+<!-- Service Overview: Technology stack information -->
 | Language | Persistence |
 | -------- | ----------- |
 | Go       | MySQL       |
 
+<!-- Main service description -->
 This service provides an API for retrieving product catalog information. Data is stored in a MySQL database.
 
 ## Configuration
 
+<!-- Environment variables for service configuration -->
 The following environment variables are available for configuring the service:
 
 | Name                                       | Description                                                     | Default        |
@@ -24,6 +27,7 @@ The following environment variables are available for configuring the service:
 
 ## Endpoints
 
+<!-- Chaos engineering endpoints for testing and fault injection -->
 Several "utility" endpoints are provided with useful functionality for various scenarios:
 
 | Method   | Name                     | Description                                                                        |
