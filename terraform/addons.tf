@@ -33,7 +33,7 @@ module "eks_addons" {
     set = [
       {
         name  = "controller.service.type"
-        value = "LoadBalancer"
+        value = "NodePort"
       },
       {
         name  = "controller.service.externalTrafficPolicy"
