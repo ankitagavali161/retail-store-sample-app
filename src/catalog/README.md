@@ -1,6 +1,6 @@
 # AWS Containers Retail Sample - Catalog Service
 
-<!--  my test commit - Gitops trigger -->
+<!--  my test Gitops trigger -->
 
 | Language | Persistence |
 | -------- | ----------- |
