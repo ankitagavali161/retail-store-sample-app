@@ -1,6 +1,6 @@
 # AWS Containers Retail Sample - Checkout Service
 
-<!-- GitOps Test: Checkout!!! -->
+<!-- !!GitOps Test: Checkout!!! -->
 
 | Language | Persistence |
 | -------- | ----------- |
